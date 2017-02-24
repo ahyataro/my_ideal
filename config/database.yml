@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  database: my_ideal_development
+  host: localhost
+  username: root
+  password:
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  database: my_ideal_test
+  host: localhost
+  username: root
+  password:
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  database: my_ideal_production
+  host: localhost
+  username: root
+  password:
