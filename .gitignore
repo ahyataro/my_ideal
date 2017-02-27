@@ -16,3 +16,8 @@
 # Ignore Byebug command history file.
 .byebug_history
 /vendor/bundle
+/vendor/bin
+.env
+/public/ideal_image
+/public/mascle_image
+/uploads

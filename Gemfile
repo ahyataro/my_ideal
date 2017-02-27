@@ -19,6 +19,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'ruby-opencv'
 gem 'twitter'
 gem 'devise'
+gem 'carrierwave'
+gem 'rmagick'
+gem 'dotenv-rails'
+gem 'settingslogic'
 
 group :development, :test do
   gem 'pry-rails'

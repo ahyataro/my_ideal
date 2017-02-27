@@ -1,0 +1,21 @@
+<h1>ユーザー設定</h1>
+
+<div>
+  <%= image_tag @ideal.user_image.url if @ideal.user_image.present? %>
+  <%= form_for @ideal, path: ideal_path do |f| %>
+    <div>
+      <%= f.file_field :user_image %>
+    </div>
+    <div>
+      <%= f.label :twitter_post, 'TwitterBotの投稿を許可する' %>
+      <%= f.check_box :twitter_post %>
+    </div>
+    <div>
+      <%= f.label :twitter_username, 'Twitterのユーザ名' %>
+      <%= f.text_field :twitter_username %>
+    </div>
+    <div>
+      <%= f.submit '更新' %>
+    </div>
+  <% end %>
+</div>
