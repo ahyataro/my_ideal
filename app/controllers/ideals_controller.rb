@@ -1,4 +1,6 @@
 class IdealsController < ApplicationController
+  before_action :authenticate_user!
+
   def edit
     @ideal = current_user.ideal
   end
