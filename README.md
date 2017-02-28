@@ -1,24 +1,4 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# MyIdeal
+- 理想の自分になれるサービス
+- 自分の顔画像を登録しておくと理想の自分bot(@my_ideals222)が理想像をツイート
+- 毎日定期的にツイートされるので理想とする自分の姿を明確にイメージできる 
