@@ -23,6 +23,7 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'dotenv-rails'
 gem 'settingslogic'
+gem 'whenever', require: false
 
 group :development, :test do
   gem 'pry-rails'
